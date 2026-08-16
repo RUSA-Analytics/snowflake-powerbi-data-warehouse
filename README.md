@@ -2,7 +2,7 @@
 
 Case studies, capability builds, and supporting technical assets for RUSA Analytics (rusaanalytics.com).
 
-Repo: https://github.com/rusa-analytics/snowflake-powerbi-data-warehouse
+Repo: https://github.com/rusaanalytics/snowflake-powerbi-data-warehouse
 
 ## Case studies
 
