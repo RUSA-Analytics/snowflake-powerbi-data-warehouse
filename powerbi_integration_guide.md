@@ -61,7 +61,7 @@ SUMX(
 2. **Supply concentration** — HHI by commodity, country share breakdown, single-country dependency flags (>50% share)
 3. **Supplier detail** — drill-through from any commodity/country to individual supplier volumes
 
-## 5. Refresh & governance notes for the client conversation
+## 5. Refresh & governance considerations
 
 - DirectQuery removes the "why is the number different in Power BI vs Snowflake" question entirely, at the cost of report responsiveness depending on warehouse size — worth surfacing explicitly as a trade-off, not a default.
 - Row-level security, if the client needs region-locked access (e.g., a country desk only seeing its own geography), gets enforced at the Snowflake role level, not in Power BI — keeps the security boundary in one place.
